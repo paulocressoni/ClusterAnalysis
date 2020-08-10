@@ -28,3 +28,13 @@ Notes:
 7. `sub_metering_1`: energy sub-metering No. 1 (in watt-hour of active energy). It corresponds to the kitchen, containing mainly a dishwasher, an oven and a microwave (hot plates are not electric but gas powered).
 8. `sub_metering_2`: energy sub-metering No. 2 (in watt-hour of active energy). It corresponds to the laundry room, containing a washing-machine, a tumble-drier, a refrigerator and a light.
 9. `sub_metering_3`: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.
+
+------------------------------------------------------------------
+
+# Conclusion
+
+There are many different [clustering methods](https://scikit-learn.org/stable/modules/clustering.html) that could lead to different outputs, depending on the characteristics of the data distribution. They have different function parameters and some need to know the number of clusters beforehand when others don't. 
+
+Also, there are no wrong answers when we're talking about clustering. It really depends on the goal of the analysis and on the business side of it. Sometimes the business experts will tell you the number of clusters they're after, or even identify and explain the clusters that your analysis unveiled.
+
+![cluster-alg](https://scikit-learn.org/stable/_images/sphx_glr_plot_cluster_comparison_001.png)
